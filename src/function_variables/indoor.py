@@ -1,7 +1,7 @@
 def indoor():
     # This code is an example and should be replaced with your own solution
     value = input()
-    print(value.lower())
+    print(value.lower("What is the word: "))
 
 
 if __name__ == "__main__":
