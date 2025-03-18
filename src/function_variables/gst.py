@@ -4,6 +4,7 @@ def main():
     gst = calculate_gst(purchase, percentage)
     print(f"GST will be ${gst:.2f}")
 
+
 def calculate_gst(purchase, percentage):
     price = currency_to_float(purchase)
     percent = percent_to_float(percentage)
@@ -13,9 +14,12 @@ def calculate_gst(purchase, percentage):
 
 
 def currency_to_float(d):
-     return float(d[1:])
+    return float(d[1:])
+
 
 def percent_to_float(p):
     return float(p[:-1]) / 100
 
-main()
+
+if __name__ == "__main__":
+    calculate_gst(100, 10)
