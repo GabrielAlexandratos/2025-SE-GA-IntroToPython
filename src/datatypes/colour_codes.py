@@ -1,7 +1,7 @@
 # Example starter code
 def rgb_to_hex(r, g, b):
-    # Your code here
-    pass
+    return "#%02x%02x%02x" % (r, g, b)
+
 
 if __name__ == "__main__":
     # Test with some popular colors
