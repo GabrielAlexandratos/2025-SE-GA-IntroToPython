@@ -4,5 +4,6 @@ def faces():
     output = output.replace(":(", "🙁")
     print(output)
 
+
 if __name__ == "__main__":
     faces()
