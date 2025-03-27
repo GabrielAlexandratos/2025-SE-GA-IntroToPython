@@ -1,12 +1,10 @@
 # Example starter code
 def text_to_decimal(message):
-    # Your code here
-    pass
+    return [ord(char) for char in message]
 
 
 def decimal_to_text(decimal_values):
-    # Your code here
-    pass
+    return "".join(chr(value) for value in decimal_values)
 
 
 if __name__ == "__main__":
